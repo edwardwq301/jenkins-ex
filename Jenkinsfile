@@ -14,11 +14,11 @@ pipeline {
             }
         }
 
-        stage('Install Dependencies') {
-            steps {
-                sh 'python3.11 -m pip install -r requirements.txt'
-            }
-        }
+        // stage('Install Dependencies') {
+        //     steps {
+        //         sh 'python3.11 -m pip install -r requirements.txt'
+        //     }
+        // }
 
         stage('Run py') {
             steps {
