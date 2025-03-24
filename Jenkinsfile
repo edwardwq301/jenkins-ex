@@ -2,12 +2,6 @@ pipeline {
     agent any
 
     stages {
-        // stage('Checkout') {
-        //     steps {
-        //         git branch: '', url: 'https://github.com/edwardwq301/spknife.git'
-        //     }
-        // }
-
         stage('Set up Python') {
             steps {
                 sh 'python3.11 --version'
