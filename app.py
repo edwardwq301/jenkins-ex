@@ -18,9 +18,9 @@ def divide(a, b):
 class TestMathOperations:
     """Test cases for math operations"""
 
-    def test_add_positive_numbers(self):
+    def test_add_positive_numbers1(self):
         assert add(20, 3) == 5
-    def test_add_positive_numbers(self):
+    def test_add_positive_numbers2(self):
         assert add(2, 3) == 5
 
     def test_add_negative_numbers(self):
