@@ -1,9 +1,9 @@
 #!/bin/bash
 set -e  # 遇到错误立即退出
 
-# 进入脚本所在目录
-cd "$(dirname "$0")"
-
+# # 进入脚本所在目录
+# cd "$(dirname "$0")"
+echo $0
 # 1. 创建虚拟环境（如果不存在）
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
