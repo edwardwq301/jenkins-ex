@@ -72,3 +72,4 @@ def exit_code():
 if __name__ == "__main__":
     # 直接运行时会执行pytest并返回适当的退出码
     print('test')
+    exit(1)
