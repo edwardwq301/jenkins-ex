@@ -19,6 +19,8 @@ class TestMathOperations:
     """Test cases for math operations"""
 
     def test_add_positive_numbers(self):
+        assert add(20, 3) == 5
+    def test_add_positive_numbers(self):
         assert add(2, 3) == 5
 
     def test_add_negative_numbers(self):
@@ -72,4 +74,3 @@ def exit_code():
 if __name__ == "__main__":
     # 直接运行时会执行pytest并返回适当的退出码
     print('test')
-    exit(1)
