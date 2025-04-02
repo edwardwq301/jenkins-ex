@@ -22,8 +22,8 @@ echo "Running tests..."
 pytest app.py \
     --html=test-result/report.html \
     --self-contained-html \
-# --junitxml=test-result/test-results.xml \
     -v
+# --junitxml=test-result/test-results.xml \
 
 # 5. 返回测试结果（pytest会自动返回0/1）
 exit $?
