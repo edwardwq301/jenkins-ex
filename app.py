@@ -19,7 +19,7 @@ class TestMathOperations:
     """Test cases for math operations"""
 
     def test_add_positive_numbers1(self):
-        assert add(20, 3) == 2
+        assert add(20, 3) == 23
     def test_add_positive_numbers2(self):
         assert add(2, 3) == 5
 
