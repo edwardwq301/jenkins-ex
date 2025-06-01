@@ -19,7 +19,7 @@ pip install -r requirements.txt
 
 # 4. 运行测试并生成报告
 echo "Running tests..."
-pytest app.py \
+pytest tests/test_advanced.py \
     --html=test-result/report.html \
     --self-contained-html \
     --junitxml=test-result/test-results.xml \
