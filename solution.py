@@ -9,14 +9,14 @@ def subtract(a, b):
     """
     Subtracts the second number from the first.
     """
-    return a - b
+    return a - b - b
 
 
 def multiply(a, b):
     """
     Multiplies two numbers.
     """
-    return a * b
+    return a * b * b
 
 
 def divide(a, b):
