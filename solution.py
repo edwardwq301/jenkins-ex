@@ -16,7 +16,7 @@ def multiply(a, b):
     """
     Multiplies two numbers.
     """
-    return a * b * b
+    return a * b
 
 
 def divide(a, b):
